@@ -4,6 +4,11 @@ version = "0.0.1"
 authors = ["Benoit TRAVERS <benoit.travers.fr@gmail.com>"]
 
 [dependencies]
+# iron dependencies
 iron = "*"
+router = "*"
+logger = { git = "https://github.com/iron/logger.git" }
+
 serde = "*"
+
 postgres = "*"
