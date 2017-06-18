@@ -1,0 +1,9 @@
+[package]
+name = "users"
+version = "0.0.1"
+authors = ["Benoit TRAVERS <benoit.travers.fr@gmail.com>"]
+
+[dependencies]
+iron = "*"
+serde = "*"
+postgres = "*"
